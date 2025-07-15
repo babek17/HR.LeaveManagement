@@ -19,5 +19,15 @@ public class UpdateLeaveTypeCommandValidator :  AbstractValidator<UpdateLeaveTyp
         RuleFor(p=>p.DefaultDays)
             .GreaterThan(1).WithMessage("{PropertyName} must be greater than one.")
             .LessThan(100).WithMessage("{PropertyName} must be less than 100.");
+        
+        RuleFor(q => q)
+            .MustAsync(LeaveTypeNameUnique)
+            .WithMessage("Leave type already exists");
+
+    }
+    
+    private Task<bool> LeaveTypeNameUnique(UpdateLeaveTypeCommand command, CancellationToken token)
+    {
+        return _leaveTypeRepository.IsLeaveTypeUnique(command.Name);
     }
 }
