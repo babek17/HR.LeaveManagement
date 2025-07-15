@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "diljVqxPCLY=",
+  "dgSpecHash": "HkaELlt9ERw=",
   "success": true,
   "projectFilePath": "/Users/babek_10_5/HR.LeaveManagement/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
   "expectedPackageFiles": [
     "/Users/babek_10_5/.nuget/packages/automapper/15.0.1/automapper.15.0.1.nupkg.sha512",
+    "/Users/babek_10_5/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/babek_10_5/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.0.0/fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "/Users/babek_10_5/.nuget/packages/mediatr/13.0.0/mediatr.13.0.0.nupkg.sha512",
     "/Users/babek_10_5/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/babek_10_5/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
