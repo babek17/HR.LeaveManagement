@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3E5AFB8-6D45-41E4-9C4C-08F979D767D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{68C65A6E-7171-451F-83B8-D6E9CD8E28FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{65505B40-5A49-4CC5-9BE6-E1B14FA4C9D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{28671D5F-F716-4FE0-8962-6938F69028B8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{28671D5F-F716-4FE0-8962-6938F69028B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{18D3A494-8B91-486A-9924-1849B713CCE3}"
 EndProject
@@ -15,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{ED6D2D4D-7A80-450C-85D0-97A7CD6B69F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{39816519-300D-4EAD-B817-88B9AF7E2959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{D5A84751-30B4-40F0-99BC-17C4D219CEDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +31,7 @@ Global
 		{E278853A-3899-4236-B0F5-A539471A5489} = {E3E5AFB8-6D45-41E4-9C4C-08F979D767D5}
 		{ED6D2D4D-7A80-450C-85D0-97A7CD6B69F3} = {E278853A-3899-4236-B0F5-A539471A5489}
 		{39816519-300D-4EAD-B817-88B9AF7E2959} = {E278853A-3899-4236-B0F5-A539471A5489}
+		{D5A84751-30B4-40F0-99BC-17C4D219CEDE} = {28671D5F-F716-4FE0-8962-6938F69028B8}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ED6D2D4D-7A80-450C-85D0-97A7CD6B69F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +42,13 @@ Global
 		{39816519-300D-4EAD-B817-88B9AF7E2959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39816519-300D-4EAD-B817-88B9AF7E2959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39816519-300D-4EAD-B817-88B9AF7E2959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2CBFFD-8648-4289-B17B-6591D47CC8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2CBFFD-8648-4289-B17B-6591D47CC8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2CBFFD-8648-4289-B17B-6591D47CC8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2CBFFD-8648-4289-B17B-6591D47CC8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A84751-30B4-40F0-99BC-17C4D219CEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A84751-30B4-40F0-99BC-17C4D219CEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A84751-30B4-40F0-99BC-17C4D219CEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A84751-30B4-40F0-99BC-17C4D219CEDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
