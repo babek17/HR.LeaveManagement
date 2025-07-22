@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zoy7TQUeRNs=",
+  "dgSpecHash": "JF0dHZYuX9s=",
   "success": true,
   "projectFilePath": "/Users/babek_10_5/HR.LeaveManagement/HR.LeaveManagement.Domain/HR.LeaveManagement.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/babek_10_5/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/babek_10_5/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
