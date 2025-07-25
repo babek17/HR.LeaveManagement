@@ -3,12 +3,13 @@ using HR.LeaveManagement.Application.Features.LeaveAllocation.Commands.DeleteLea
 using HR.LeaveManagement.Application.Features.LeaveAllocation.Commands.UpdateLeaveAllocation;
 using HR.LeaveManagement.Application.Features.LeaveAllocation.Query.GetLeaveAllocationDetails;
 using HR.LeaveManagement.Application.Features.LeaveAllocation.Query.GetLeaveAllocations;
-using HR.LeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HR.LeaveManagement.Api.Controllers;
 
+[Route("api/[controller]")]
+[ApiController]
 public class LeaveAllocationController : ControllerBase
 {
     private readonly IMediator _mediator;
