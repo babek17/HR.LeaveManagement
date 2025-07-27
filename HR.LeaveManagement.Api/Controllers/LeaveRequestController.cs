@@ -41,7 +41,7 @@ namespace HR.LeaveManagement.Api.Controllers
             return Ok(leaveRequest);
         }
 
-         [HttpPost]
+        [HttpPost]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
